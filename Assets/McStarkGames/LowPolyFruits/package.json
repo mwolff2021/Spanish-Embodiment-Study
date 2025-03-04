@@ -1,0 +1,26 @@
+{
+  "name": "com.mcstarkgames.lowpolyfruits",
+  "version": "1.0.0",
+  "displayName": "Low Poly Fruits | Food Pack",
+  "description": "\n30 low-poly fruits, each having different variants.\n 20 textures, one being a color palette.\n 171 total models fully listed:\n Cantaloupe,\n Honeydew,\n Watermelon,\n Coconut,\n Honeydew,\n Banana,\n Pineapple,\n DragonFruit,\n StarFruit,\n PassionFruit,\n Pear,\n Apple,\n Pomegranate,\n Grapefruit,\n Orange,\n Lemon,\n Lime,\n Guava,\n Mango,\n Peach,\n Apricot,\n Plum,\n Fig,\n Kiwi,\n Cherry,\n Strawberry,\n Raspberry,\n Blackberry,\n Blueberry,\n Cranberry,\n White Grape,\n Grape",
+  "keywords": [
+    "lowpoly",
+    "low poly",
+    "low-poly",
+    "fruits",
+    "fruit",
+    "cut",
+    "cut up",
+    "slice",
+    "sliced",
+    "half",
+    "cooking",
+    "model pack"
+  ],
+  "author": {
+    "name": "Casey McIlhargey Stark",
+    "email": "caseymcstark@gmail.com"
+  },
+  "unity": "2022.3",
+  "unityRelease": "18f1"
+}
