@@ -5,7 +5,7 @@
       "app_key": "application.generated.unity.mirrorstudyhdrp.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "C:\\Users\\mwolff3\\Documents\\MirrorStudyHDRP\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "action_manifest_path": "C:\\Users\\mwolff3\\Documents\\Spanish-Embodiment-Study\\MirrorStudyHDRP\\Assets\\StreamingAssets\\SteamVR\\actions.json",
       "strings": {
         "en_us": {
           "name": "MirrorStudyHDRP [Testing]"

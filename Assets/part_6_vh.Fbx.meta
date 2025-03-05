@@ -3,7 +3,117 @@ guid: ab7fd8293cf65ea4fa00cc60b8ac8ec3
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Canvas_shoes
+    second: {fileID: 2100000, guid: f3e924e85a1e0e749918cf1807932175, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hair_Transparency
+    second: {fileID: 2100000, guid: f00622749d8b06e429f9918bd685334a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Layered_sweater
+    second: {fileID: 2100000, guid: 48195dd9924a2154a9511a5dfe1cea03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Scalp_Transparency
+    second: {fileID: 2100000, guid: 75347ee460938684487373a86152d27b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Slim_Jeans
+    second: {fileID: 2100000, guid: 0dcb95d3d45c80e49853df2bf1983634, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Std_Cornea_L
+    second: {fileID: 2100000, guid: f587afbcb8f624a448a9d5bd179bc363, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Std_Cornea_R
+    second: {fileID: 2100000, guid: bd15489f9f3319d4ca81523299e6130d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Std_Eye_L
+    second: {fileID: 2100000, guid: b582921a89aebee4692d341bcee1650e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Std_Eye_Occlusion_L
+    second: {fileID: 2100000, guid: 85a070e23d783c440896eacf6ccbe4c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Std_Eye_Occlusion_R
+    second: {fileID: 2100000, guid: f1bbade4fba4111468d39bfc009e0eb1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Std_Eye_R
+    second: {fileID: 2100000, guid: 9929758e244012b4cb93d7634c38698e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Std_Eyelash
+    second: {fileID: 2100000, guid: 6f35326f11d6c324ca70d158efe70867, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Std_Lower_Teeth
+    second: {fileID: 2100000, guid: 0cd7e7ee158bc4e4cb4c68c321e1889f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Std_Nails
+    second: {fileID: 2100000, guid: 5c29147cd20a8f442b3159eaf8ef9f3c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Std_Skin_Arm
+    second: {fileID: 2100000, guid: 9d942d99afe057845894f89286bd8959, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Std_Skin_Body
+    second: {fileID: 2100000, guid: 3096bccc231119744b1cf366101a07c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Std_Skin_Head
+    second: {fileID: 2100000, guid: a6a2897f371a4104cb76190116772c54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Std_Skin_Leg
+    second: {fileID: 2100000, guid: 4107b465d4de9864280bca048f14be5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Std_Tearline_L
+    second: {fileID: 2100000, guid: 2c581da9b7f786747a0ce842711cd10c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Std_Tearline_R
+    second: {fileID: 2100000, guid: 413c3073fe3bed24ab06cc74bcf033b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Std_Tongue
+    second: {fileID: 2100000, guid: bec93e8d261fe274591639a71511f67d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Std_Upper_Teeth
+    second: {fileID: 2100000, guid: 03aebe122389071428a57f634ebce188, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -31,7 +141,36 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: 0_T-Pose
+      takeName: 0_T-Pose
+      internalID: -7881739814215078984
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 0
   meshes:
     lODScreenPercentages: []
@@ -74,15 +213,1020 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
-    blendShapeNormalImportMode: 1
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 0
     normalSmoothingSource: 0
   referencedClips: []
   importAnimation: 1
   humanDescription:
     serializedVersion: 3
-    human: []
-    skeleton: []
+    human:
+    - boneName: CC_Base_Spine01
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_Hip
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_JawRoot
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_L_Index3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_L_Index2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_L_Index1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_L_Pinky3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_L_Pinky2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_L_Pinky1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_L_Mid3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_L_Mid2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_L_Mid1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_L_Ring3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_L_Ring2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_L_Ring1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_L_Thumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_L_Thumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_L_Thumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_L_Eye
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_L_Foot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_L_Hand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_L_Forearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_L_Calf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_L_Clavicle
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_L_ToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_L_Upperarm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_L_Thigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_NeckTwist01
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_R_Index3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_R_Index2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_R_Index1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_R_Pinky3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_R_Pinky2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_R_Pinky1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_R_Mid3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_R_Mid2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_R_Mid1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_R_Ring3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_R_Ring2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_R_Ring1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_R_Thumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_R_Thumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_R_Thumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_R_Eye
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_R_Foot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_R_Hand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_R_Forearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_R_Calf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_R_Clavicle
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_R_ToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_R_Upperarm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_R_Thigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_Waist
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CC_Base_Spine02
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: part_6_vh
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Afro_Buzz_Cut_Hair
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boxers
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Canvas_shoes
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CC_Base_Body
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CC_Base_BoneRoot
+      parentName: 
+      position: {x: -0.0000023299217, y: 0, z: -0.031547155}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CC_Base_Hip
+      parentName: 
+      position: {x: 1.4551915e-13, y: -0.0000000023841857, z: 1.0289295}
+      rotation: {x: 0.7071063, y: 0.000013950681, z: -0.000013826329, w: 0.70710725}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999999}
+    - name: CC_Base_Pelvis
+      parentName: 
+      position: {x: -4.3655745e-13, y: -0.000000038088533, z: 0.0000000023841857}
+      rotation: {x: 0.093841836, y: -8.4372587e-16, z: 0.0000000682152, w: 0.9955871}
+      scale: {x: 1.0000001, y: 1.0000006, z: 1.0000006}
+    - name: CC_Base_L_Thigh
+      parentName: 
+      position: {x: -0.093642555, y: -0.019790513, z: 0.00076766964}
+      rotation: {x: 0.0009864613, y: 0.09324499, z: 0.99559045, w: -0.010202298}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: CC_Base_L_Calf
+      parentName: 
+      position: {x: -0.00006706238, y: 0.45315546, z: -0.0000023674963}
+      rotation: {x: -0.0035199218, y: 0.000040915234, z: -0.00035173882, w: 0.99999374}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: CC_Base_L_CalfTwist01
+      parentName: 
+      position: {x: -0.000000019073486, y: -0.00000006228685, z: 0}
+      rotation: {x: -0.000007157678, y: -0.0001912062, z: 0.000009244303, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CC_Base_L_CalfTwist02
+      parentName: 
+      position: {x: 0.000004763603, y: 0.23470685, z: 0.00003369093}
+      rotation: {x: -0.0000013189854, y: -0.0005468068, z: 0.0000016833635, w: 0.9999999}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: CC_Base_L_Foot
+      parentName: 
+      position: {x: 0.00000089645386, y: 0.46941367, z: 0.000060005186}
+      rotation: {x: 0.62342393, y: 0.03719722, z: -0.038914017, w: 0.78002864}
+      scale: {x: 0.9999998, y: 0.9999998, z: 0.99999994}
+    - name: CC_Base_L_ToeBase
+      parentName: 
+      position: {x: 0.000001654625, y: 0.15362225, z: 0.0000007629394}
+      rotation: {x: 0.1326958, y: -0.024515457, z: 0.013547126, w: 0.990761}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000001}
+    - name: CC_Base_L_BigToe1
+      parentName: 
+      position: {x: -0.038642682, y: 0.023549603, z: 0.00044810114}
+      rotation: {x: -0.010877249, y: -0.0001073631, z: 0.0026476448, w: 0.99993736}
+      scale: {x: 0.9999999, y: 0.99999964, z: 1}
+    - name: CC_Base_L_IndexToe1
+      parentName: 
+      position: {x: -0.016384562, y: 0.025204267, z: 0.0030883348}
+      rotation: {x: -0.14636119, y: -0.043428365, z: 0.0078066792, w: 0.9882467}
+      scale: {x: 1.0000001, y: 0.99999994, z: 0.99999994}
+    - name: CC_Base_L_MidToe1
+      parentName: 
+      position: {x: -0.00000042915343, y: 0.024468163, z: -0.00000006198883}
+      rotation: {x: -0.13398913, y: -0.03854178, z: 0.008542591, w: 0.99019617}
+      scale: {x: 1.0000001, y: 0.99999976, z: 0.9999999}
+    - name: CC_Base_L_PinkyToe1
+      parentName: 
+      position: {x: 0.028536472, y: 0.005167379, z: -0.005269258}
+      rotation: {x: -0.18507734, y: -0.035626873, z: 0.030966539, w: 0.9815896}
+      scale: {x: 1, y: 0.9999996, z: 0.99999994}
+    - name: CC_Base_L_RingToe1
+      parentName: 
+      position: {x: 0.014367819, y: 0.015862722, z: -0.001236621}
+      rotation: {x: -0.21036407, y: -0.051166464, z: 0.018806819, w: 0.97610205}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: CC_Base_L_ToeBaseShareBone
+      parentName: 
+      position: {x: 0.000001654625, y: 0.15362228, z: 0.0000007462501}
+      rotation: {x: 0.1326935, y: -0.024695171, z: 0.013531363, w: 0.99075705}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: CC_Base_L_KneeShareBone
+      parentName: 
+      position: {x: -0.000000019073486, y: -0.00000006228685, z: 0}
+      rotation: {x: 0.009515343, y: -0.016273238, z: 0.00014272942, w: 0.9998223}
+      scale: {x: 0.9999998, y: 0.99999994, z: 0.9999999}
+    - name: CC_Base_L_ThighTwist01
+      parentName: 
+      position: {x: 0.000000019073486, y: -0.000000101625915, z: 0.000000007152557}
+      rotation: {x: 0.000022936401, y: -0.000007840337, z: -0.0000075879475, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: CC_Base_L_ThighTwist02
+      parentName: 
+      position: {x: -0.000037021637, y: 0.22657758, z: -0.000011658668}
+      rotation: {x: 2.5171398e-19, y: 0.00001121743, z: 0.00000006845222, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.9999999}
+    - name: CC_Base_R_Thigh
+      parentName: 
+      position: {x: 0.093642555, y: -0.019790482, z: 0.000767653}
+      rotation: {x: -0.0009780767, y: 0.093794644, z: 0.99553925, w: 0.010161256}
+      scale: {x: 0.9999999, y: 0.9999998, z: 0.99999976}
+    - name: CC_Base_R_Calf
+      parentName: 
+      position: {x: 0.00006705284, y: 0.45315573, z: -0.000002350807}
+      rotation: {x: -0.0045384974, y: -0.000052421707, z: 0.00035141365, w: 0.9999896}
+      scale: {x: 1.0000008, y: 1.0000007, z: 1}
+    - name: CC_Base_R_CalfTwist01
+      parentName: 
+      position: {x: 0.000000009536743, y: -0.00000018790364, z: 0.0000000023841857}
+      rotation: {x: -0.0000070999376, y: 0.00020233223, z: -0.000009251774, w: 1}
+      scale: {x: 0.9999997, y: 0.99999976, z: 1}
+    - name: CC_Base_R_CalfTwist02
+      parentName: 
+      position: {x: -0.00000477314, y: 0.23470691, z: 0.000033679007}
+      rotation: {x: -0.0000013543745, y: 0.00051643775, z: -0.000001674055, w: 0.9999999}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
+    - name: CC_Base_R_Foot
+      parentName: 
+      position: {x: -0.0000008678436, y: 0.46941367, z: 0.000060005186}
+      rotation: {x: 0.6237879, y: -0.037208397, z: 0.03888843, w: 0.77973837}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.99999994}
+    - name: CC_Base_R_ToeBase
+      parentName: 
+      position: {x: -0.0000016498566, y: 0.15362234, z: 0.0000008940697}
+      rotation: {x: 0.13269617, y: 0.02451542, z: -0.013547121, w: 0.9907609}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
+    - name: CC_Base_R_BigToe1
+      parentName: 
+      position: {x: 0.038642712, y: 0.023549585, z: 0.00044814765}
+      rotation: {x: -0.010877291, y: 0.000107355445, z: -0.0026476479, w: 0.99993736}
+      scale: {x: 0.9999997, y: 0.9999998, z: 0.9999999}
+    - name: CC_Base_R_IndexToe1
+      parentName: 
+      position: {x: 0.016384562, y: 0.025204238, z: 0.0030883478}
+      rotation: {x: -0.14636126, y: 0.043428358, z: -0.0078066885, w: 0.9882466}
+      scale: {x: 0.9999998, y: 0.9999999, z: 0.99999994}
+    - name: CC_Base_R_MidToe1
+      parentName: 
+      position: {x: 0.00000041007993, y: 0.024468154, z: -0.000000033974647}
+      rotation: {x: -0.13398914, y: 0.03854178, z: -0.008542604, w: 0.99019617}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: CC_Base_R_PinkyToe1
+      parentName: 
+      position: {x: -0.028536472, y: 0.005167379, z: -0.0052692425}
+      rotation: {x: -0.18507737, y: 0.03562686, z: -0.03096654, w: 0.9815896}
+      scale: {x: 0.9999998, y: 0.99999976, z: 0.9999999}
+    - name: CC_Base_R_RingToe1
+      parentName: 
+      position: {x: -0.014367837, y: 0.015862694, z: -0.0012365729}
+      rotation: {x: -0.21036407, y: 0.05116646, z: -0.018806819, w: 0.97610205}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+    - name: CC_Base_R_ToeBaseShareBone
+      parentName: 
+      position: {x: -0.0000016593933, y: 0.15362228, z: 0.0000008893013}
+      rotation: {x: 0.13269371, y: 0.024695158, z: -0.013531359, w: 0.99075705}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: CC_Base_R_KneeShareBone
+      parentName: 
+      position: {x: 0.000000009536743, y: -0.00000018790364, z: 0.0000000023841857}
+      rotation: {x: 0.010024685, y: 0.016284302, z: -0.00015076526, w: 0.99981713}
+      scale: {x: 0.9999997, y: 0.9999998, z: 0.9999999}
+    - name: CC_Base_R_ThighTwist01
+      parentName: 
+      position: {x: -0.000000019073486, y: 0.00000010967254, z: 0.000000009536743}
+      rotation: {x: 0.000022936896, y: 0.00000785575, z: 0.0000076037763, w: 1}
+      scale: {x: 1.0000007, y: 1.0000007, z: 1}
+    - name: CC_Base_R_ThighTwist02
+      parentName: 
+      position: {x: 0.000037021637, y: 0.2265776, z: -0.000011649132}
+      rotation: {x: 2.2050877e-19, y: -0.000011230764, z: -0.00000006658909, w: 1}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
+    - name: CC_Base_Waist
+      parentName: 
+      position: {x: -2.1100276e-12, y: 0.08058252, z: 0.0153272385}
+      rotation: {x: 0.11739709, y: 0.0000022185043, z: 0.000019515825, w: 0.9930851}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000005}
+    - name: CC_Base_Spine01
+      parentName: 
+      position: {x: 7.130438e-12, y: 0.044444107, z: 0.0000000035762786}
+      rotation: {x: -0.17880958, y: 0, z: -0, w: 0.9838837}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: CC_Base_Spine02
+      parentName: 
+      position: {x: -1.6443664e-11, y: 0.14598227, z: -0.000000021457671}
+      rotation: {x: -0.03472917, y: 0, z: -0, w: 0.9993968}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
+    - name: CC_Base_L_Clavicle
+      parentName: 
+      position: {x: -0.058876194, y: 0.23050834, z: 0.0005065536}
+      rotation: {x: -0.007116137, y: -0.14519651, z: 0.69257545, w: 0.70654553}
+      scale: {x: 0.9999999, y: 1, z: 0.99999994}
+    - name: CC_Base_L_Upperarm
+      parentName: 
+      position: {x: 0.00000030269845, y: 0.12977423, z: -0.00000014305114}
+      rotation: {x: 0.11354823, y: 0.004413628, z: 0.007087389, w: 0.99349743}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: CC_Base_L_Forearm
+      parentName: 
+      position: {x: 0.000019258261, y: 0.2689843, z: -0.00004462242}
+      rotation: {x: -0.00008828698, y: -0.00011773862, z: 0.00041142388, w: 0.99999994}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: CC_Base_L_ElbowShareBone
+      parentName: 
+      position: {x: 0.00000013113022, y: 0, z: 0.000000019073486}
+      rotation: {x: -0.0048167626, y: -0.00029945708, z: 0.0004888471, w: 0.99998826}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: CC_Base_L_ForearmTwist01
+      parentName: 
+      position: {x: 0.00000013113022, y: 0, z: 0.000000019073486}
+      rotation: {x: -0.00000019139272, y: 0.000062709194, z: 0.0000059548765, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: CC_Base_L_ForearmTwist02
+      parentName: 
+      position: {x: -0.00000036656857, y: 0.12843506, z: 0.0000061035153}
+      rotation: {x: 0.000004505048, y: 0.0000000707805, z: -0.0000057823495, w: 1}
+      scale: {x: 0.99999976, y: 0.99999976, z: 0.9999997}
+    - name: CC_Base_L_Hand
+      parentName: 
+      position: {x: -0.00000037670134, y: 0.25687024, z: 0.000001707077}
+      rotation: {x: -0.0062357797, y: 0.0026107472, z: 0.007740609, w: 0.9999472}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: CC_Base_L_Index1
+      parentName: 
+      position: {x: 0.0053225327, y: 0.08709282, z: 0.040568452}
+      rotation: {x: 0.0141272005, y: 0.001980167, z: 0.011815318, w: 0.99982846}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+    - name: CC_Base_L_Index2
+      parentName: 
+      position: {x: -0.00000014305114, y: 0.042531356, z: -0.00000012874602}
+      rotation: {x: 0.01123809, y: -0.0060551446, z: 0.0223979, w: 0.99966764}
+      scale: {x: 0.9999998, y: 0.99999994, z: 0.9999998}
+    - name: CC_Base_L_Index3
+      parentName: 
+      position: {x: -0.000000076293944, y: 0.028679961, z: -0.000000038146972}
+      rotation: {x: 0.010247685, y: -0.001702457, z: -0.033247378, w: 0.99939317}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: CC_Base_L_Mid1
+      parentName: 
+      position: {x: 0.0058035944, y: 0.08989174, z: 0.01840187}
+      rotation: {x: 0.02551064, y: 0.0014580972, z: 0.0026045954, w: 0.99967015}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: CC_Base_L_Mid2
+      parentName: 
+      position: {x: 0.0000009965896, y: 0.04863983, z: -0.000002555847}
+      rotation: {x: 0.004631734, y: -0.0035660772, z: 0.010102816, w: 0.9999319}
+      scale: {x: 1.0000001, y: 0.9999999, z: 0.99999994}
+    - name: CC_Base_L_Mid3
+      parentName: 
+      position: {x: 0.00000041484833, y: 0.030814972, z: 0.00000028610228}
+      rotation: {x: 0.014243374, y: -0.0011972173, z: -0.025884092, w: 0.9995628}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1}
+    - name: CC_Base_L_Pinky1
+      parentName: 
+      position: {x: -0.0058667636, y: 0.0914106, z: -0.017724505}
+      rotation: {x: 0.021911597, y: -0.00096654997, z: -0.015265134, w: 0.9996429}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: CC_Base_L_Pinky2
+      parentName: 
+      position: {x: -0.00000014290214, y: 0.033453215, z: -0.000000047683713}
+      rotation: {x: 0.0066583967, y: 0.0025668526, z: 0.00009502205, w: 0.99997455}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1.0000001}
+    - name: CC_Base_L_Pinky3
+      parentName: 
+      position: {x: 0.000000100731846, y: 0.017647019, z: 0}
+      rotation: {x: 0.007198455, y: -0.0053386306, z: -0.06936002, w: 0.99755144}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: CC_Base_L_Ring1
+      parentName: 
+      position: {x: 0.0000001502037, y: 0.08923248, z: 0.000000667572}
+      rotation: {x: 0.014777603, y: -0.0020449432, z: -0.0058623715, w: 0.99987155}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: CC_Base_L_Ring2
+      parentName: 
+      position: {x: -0.00000039458274, y: 0.046484604, z: 0.000000019073486}
+      rotation: {x: -0.0011775405, y: 0.00012456343, z: 0.01685671, w: 0.99985725}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1.0000001}
+    - name: CC_Base_L_Ring3
+      parentName: 
+      position: {x: 0.00000024318695, y: 0.027030105, z: 0.000000019073486}
+      rotation: {x: 0.0014447987, y: -0.0018611761, z: -0.04247192, w: 0.9990949}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: CC_Base_L_Thumb1
+      parentName: 
+      position: {x: -0.004358499, y: 0.016052932, z: 0.027017487}
+      rotation: {x: 0.40109396, y: 0.09906164, z: 0.036871493, w: 0.9099181}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: CC_Base_L_Thumb2
+      parentName: 
+      position: {x: -0.00000021934508, y: 0.058860663, z: -0.0000003814697}
+      rotation: {x: -0.1595206, y: 0.012643991, z: -0.04068156, w: 0.986275}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: CC_Base_L_Thumb3
+      parentName: 
+      position: {x: 0.000000038146972, y: 0.030306319, z: 0.000000038146972}
+      rotation: {x: 0.022787131, y: -0.0010746929, z: -0.025607223, w: 0.99941176}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: CC_Base_L_UpperarmTwist01
+      parentName: 
+      position: {x: -0.00000011771917, y: -0.00000017166137, z: 0}
+      rotation: {x: -0.00022049929, y: -0.00000018813924, z: -0.00009882727, w: 1}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
+    - name: CC_Base_L_UpperarmTwist02
+      parentName: 
+      position: {x: -0.000017064214, y: 0.13449198, z: 0.000037641523}
+      rotation: {x: 0.0000012127587, y: 0.00000018044376, z: -0.0000002759043, w: 1}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.99999964}
+    - name: CC_Base_L_RibsTwist
+      parentName: 
+      position: {x: -0.10973829, y: 0.07411931, z: 0.10084759}
+      rotation: {x: -0.000008450602, y: 0.6354152, z: 0.77217066, w: -0.000001668364}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999999}
+    - name: CC_Base_L_Breast
+      parentName: 
+      position: {x: -0.00000016212464, y: 0.019999942, z: 0.00000045425259}
+      rotation: {x: -0.00000014536762, y: 0, z: -0, w: 1}
+      scale: {x: 1.0000008, y: 1.0000008, z: 1}
+    - name: CC_Base_NeckTwist01
+      parentName: 
+      position: {x: -9.4369165e-11, y: 0.28809395, z: -0.0000001001358}
+      rotation: {x: 0.24134834, y: 1.2632729e-15, z: -0.000000091575885, w: 0.9704386}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999999}
+    - name: CC_Base_NeckTwist02
+      parentName: 
+      position: {x: -6.805203e-10, y: 0.03892301, z: -0.000000009536743}
+      rotation: {x: -0.056154132, y: 2.2457565e-16, z: 0.00000008996721, w: 0.99842215}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: CC_Base_Head
+      parentName: 
+      position: {x: -0.0000000010079384, y: 0.047327433, z: -0.00000024318695}
+      rotation: {x: -0.09060287, y: 0, z: -0, w: 0.9958871}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999999}
+    - name: CC_Base_FacialBone
+      parentName: 
+      position: {x: 7.2759575e-14, y: -0.00000007179214, z: -0.000000028610229}
+      rotation: {x: 0.5, y: -0.49999994, z: -0.5, w: 0.50000006}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CC_Base_JawRoot
+      parentName: 
+      position: {x: -0.016931968, y: 0.022831008, z: -0.00035666613}
+      rotation: {x: -0.000058611207, y: 0.000042475138, z: -0.7070914, w: 0.70712215}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000004}
+    - name: CC_Base_Teeth02
+      parentName: 
+      position: {x: -0.029223183, y: 0.007276621, z: 0.00005119106}
+      rotation: {x: 1, y: 0.0000023073328, z: -0.00009716791, w: -0.00008069356}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
+    - name: CC_Base_Tongue01
+      parentName: 
+      position: {x: -0.03464008, y: 0.011382546, z: 0.000058368332}
+      rotation: {x: 0.00017451368, y: 0.0025421856, z: -0.07178702, w: 0.99741673}
+      scale: {x: 1.0000004, y: 1.0000001, z: 0.9999999}
+    - name: CC_Base_Tongue02
+      parentName: 
+      position: {x: -0.011825113, y: 0.00019843354, z: -0.00000013623387}
+      rotation: {x: 0.00043670164, y: 0.0005444376, z: -0.05433176, w: 0.9985227}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+    - name: CC_Base_Tongue03
+      parentName: 
+      position: {x: -0.01737497, y: 0.00004002571, z: -0.00000061281025}
+      rotation: {x: -0.0000014452106, y: -0.00000020255906, z: -0.000117138, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: CC_Base_L_Eye
+      parentName: 
+      position: {x: -0.07538144, y: 0.076404974, z: 0.031676758}
+      rotation: {x: 0.7071068, y: -0.0000011298837, z: -0.7071068, w: -0.0000011298837}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+    - name: CC_Base_R_Eye
+      parentName: 
+      position: {x: -0.07464124, y: 0.07687946, z: -0.03251386}
+      rotation: {x: 0.7071068, y: -0.0000011298837, z: -0.7071068, w: -0.0000011298837}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+    - name: CC_Base_UpperJaw
+      parentName: 
+      position: {x: -0.031300645, y: 0.06808114, z: -0.00036689002}
+      rotation: {x: 0.000028433913, y: 0.000031095457, z: -0.70711046, w: 0.70710313}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+    - name: CC_Base_Teeth01
+      parentName: 
+      position: {x: 0.0044948156, y: -0.006376378, z: 0.00006151725}
+      rotation: {x: 1, y: 0.000010382449, z: 0.000034197838, w: 0.000010918606}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1}
+    - name: CC_Base_R_Clavicle
+      parentName: 
+      position: {x: 0.058876194, y: 0.23050834, z: 0.0005065536}
+      rotation: {x: -0.007116192, y: 0.14519647, z: -0.6925755, w: 0.7065455}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
+    - name: CC_Base_R_Upperarm
+      parentName: 
+      position: {x: -0.00000019200145, y: 0.12977427, z: -0.00000013828277}
+      rotation: {x: 0.11354821, y: -0.004413549, z: -0.007087547, w: 0.99349743}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1}
+    - name: CC_Base_R_Forearm
+      parentName: 
+      position: {x: -0.000019195675, y: 0.2689843, z: -0.00004462242}
+      rotation: {x: -0.00008830387, y: 0.00011800635, z: -0.00041145436, w: 0.99999994}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+    - name: CC_Base_R_ElbowShareBone
+      parentName: 
+      position: {x: -0.00000004172325, y: -0.000000038146972, z: 0}
+      rotation: {x: -0.0048167454, y: 0.00029929262, z: -0.000488804, w: 0.99998826}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.9999999}
+    - name: CC_Base_R_ForearmTwist01
+      parentName: 
+      position: {x: -0.00000004172325, y: -0.000000038146972, z: 0}
+      rotation: {x: -0.00000018824582, y: -0.00006288733, z: -0.0000059558083, w: 1}
+      scale: {x: 0.9999997, y: 0.9999998, z: 0.9999997}
+    - name: CC_Base_R_ForearmTwist02
+      parentName: 
+      position: {x: 0.00000034570692, y: 0.12843516, z: 0.0000061321257}
+      rotation: {x: 0.000004546729, y: 0.000000092899526, z: 0.0000058582496, w: 1}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000002}
+    - name: CC_Base_R_Hand
+      parentName: 
+      position: {x: 0.00000032782555, y: 0.25687012, z: 0.000001707077}
+      rotation: {x: -0.006235743, y: -0.0026110148, z: -0.0077404613, w: 0.9999472}
+      scale: {x: 0.9999997, y: 0.9999999, z: 0.9999997}
+    - name: CC_Base_R_Index1
+      parentName: 
+      position: {x: -0.0053223204, y: 0.08709282, z: 0.04056846}
+      rotation: {x: 0.01412714, y: -0.0019801029, z: -0.011815557, w: 0.99982846}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+    - name: CC_Base_R_Index2
+      parentName: 
+      position: {x: -0.000000095367426, y: 0.042531203, z: -0.000000114440915}
+      rotation: {x: 0.011238165, y: 0.006055234, z: -0.022397742, w: 0.99966764}
+      scale: {x: 1, y: 0.99999994, z: 0.9999999}
+    - name: CC_Base_R_Index3
+      parentName: 
+      position: {x: 0.0000000667572, y: 0.02868019, z: -0.000000028610229}
+      rotation: {x: 0.010247793, y: 0.0017023233, z: 0.033247337, w: 0.99939317}
+      scale: {x: 0.99999994, y: 0.9999998, z: 1}
+    - name: CC_Base_R_Mid1
+      parentName: 
+      position: {x: -0.0058033825, y: 0.08989166, z: 0.01840188}
+      rotation: {x: 0.02551064, y: -0.0014580336, z: -0.0026046566, w: 0.99967015}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
+    - name: CC_Base_R_Mid2
+      parentName: 
+      position: {x: -0.0000010418892, y: 0.04863983, z: -0.000002565384}
+      rotation: {x: 0.004631799, y: 0.0035659631, z: -0.010102788, w: 0.9999319}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.99999994}
+    - name: CC_Base_R_Mid3
+      parentName: 
+      position: {x: -0.0000003528595, y: 0.030815048, z: 0.00000029563904}
+      rotation: {x: 0.014243292, y: 0.0011973173, z: 0.025884084, w: 0.9995628}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000004}
+    - name: CC_Base_R_Pinky1
+      parentName: 
+      position: {x: 0.005867126, y: 0.09141052, z: -0.017724505}
+      rotation: {x: 0.02191163, y: 0.00096664863, z: 0.015265098, w: 0.9996429}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000002}
+    - name: CC_Base_R_Pinky2
+      parentName: 
+      position: {x: 0.0000000564754, y: 0.033453446, z: -0.000000038146972}
+      rotation: {x: 0.006658371, y: -0.0025669415, z: -0.00009510918, w: 0.99997455}
+      scale: {x: 0.9999997, y: 0.99999976, z: 0.9999999}
+    - name: CC_Base_R_Pinky3
+      parentName: 
+      position: {x: -0.0000000628829, y: 0.017646942, z: 0.000000009536743}
+      rotation: {x: 0.0071985195, y: 0.005338733, z: 0.06936003, w: 0.99755144}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000002}
+    - name: CC_Base_R_Ring1
+      parentName: 
+      position: {x: -0.000000095367426, y: 0.08923256, z: 0.00000067710874}
+      rotation: {x: 0.014777585, y: 0.0020450486, z: 0.005862268, w: 0.99987155}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+    - name: CC_Base_R_Ring2
+      parentName: 
+      position: {x: 0.00000015854835, y: 0.046484526, z: 0.000000028610229}
+      rotation: {x: -0.0011775225, y: -0.00012460552, z: -0.016856663, w: 0.99985725}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1.0000001}
+    - name: CC_Base_R_Ring3
+      parentName: 
+      position: {x: 0.00000012874602, y: 0.027030105, z: -0.000000009536743}
+      rotation: {x: 0.0014448002, y: 0.0018611505, z: 0.04247194, w: 0.9990949}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.9999999}
+    - name: CC_Base_R_Thumb1
+      parentName: 
+      position: {x: 0.0043587303, y: 0.016052932, z: 0.027017493}
+      rotation: {x: 0.4010937, y: -0.09906139, z: -0.036871336, w: 0.90991825}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: CC_Base_R_Thumb2
+      parentName: 
+      position: {x: -0.000000019073486, y: 0.058860663, z: -0.00000030517577}
+      rotation: {x: -0.15952033, y: -0.012644188, z: 0.040681303, w: 0.9862751}
+      scale: {x: 0.9999999, y: 1, z: 1.0000002}
+    - name: CC_Base_R_Thumb3
+      parentName: 
+      position: {x: -0.000000076293944, y: 0.030306319, z: 0}
+      rotation: {x: 0.022787169, y: 0.0010746939, z: 0.025607513, w: 0.99941176}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: CC_Base_R_UpperarmTwist01
+      parentName: 
+      position: {x: 0.0000003093481, y: -0.00000017166137, z: 0}
+      rotation: {x: -0.00022048873, y: 0.0000000925468, z: 0.00009886384, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: CC_Base_R_UpperarmTwist02
+      parentName: 
+      position: {x: 0.000017043352, y: 0.13449198, z: 0.000037641523}
+      rotation: {x: 0.0000012175625, y: -3.8673065e-20, z: 0.00000017904676, w: 1}
+      scale: {x: 0.9999999, y: 0.99999976, z: 0.9999998}
+    - name: CC_Base_R_RibsTwist
+      parentName: 
+      position: {x: 0.10973829, y: 0.07411931, z: 0.10084759}
+      rotation: {x: 0.000008451057, y: 0.6354152, z: 0.77217066, w: 0.0000016679896}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999999}
+    - name: CC_Base_R_Breast
+      parentName: 
+      position: {x: 0.00000016212464, y: 0.019999942, z: 0.00000045422928}
+      rotation: {x: -0.00000014536762, y: 0, z: -0, w: 1}
+      scale: {x: 1.0000008, y: 1.0000008, z: 1}
+    - name: CC_Base_Eye
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CC_Base_EyeOcclusion
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CC_Base_TearLine
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CC_Base_Teeth
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CC_Base_Tongue
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Layered_sweater
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Slim_Jeans
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -92,14 +1236,14 @@ ModelImporter:
     feetSpacing: 0
     globalScale: 1
     rootMotionBoneName: 
-    hasTranslationDoF: 0
+    hasTranslationDoF: 1
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
-  animationType: 2
+  animationType: 3
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   importBlendShapeDeformPercent: 1
   remapMaterialsIfMaterialImportModeIsNone: 0

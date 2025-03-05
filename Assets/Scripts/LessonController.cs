@@ -22,30 +22,31 @@ public class LessonController : MonoBehaviour
 	void Start()
     {
        
-		
-		fruits = GameObject.Find("Fruits");
 		subtitles = GameObject.Find("Subtitles");
 		audio = GameObject.Find("Instructor").GetComponent<AudioSource>();
 		animator = GameObject.Find("Instructor").GetComponent<Animator>();
+		shapes = GameObject.Find("ShapesDisplay");
+		shapes.SetActive(false);
+		colors = GameObject.Find("ColorsDisplay");
+		colors.SetActive(false);
+		fruits = GameObject.Find("FruitsDisplay");
+		fruits.SetActive(false);
 
 		subs = subtitles.GetComponent<TextMeshPro>();
 		switch (lesson)
 		{
 			case 1: //shapes
-				shapes = GameObject.Find("ShapesDisplay");
-				shapes.SetActive(true);
+				shapes.SetActive(true); 
 				r = shapes.GetComponent<Renderer>();
 				StartCoroutine(shapeScript()); 
 				break;
 			case 2: //colors
-				colors = GameObject.Find("ColorsDisplay");
-				colors.SetActive(true);
+				colors.SetActive(true); 
 				r = colors.GetComponent<Renderer>();
 				m = r.material;
 				StartCoroutine(colorScript()); 
 				break;
 			case 3: //fruits
-				fruits = GameObject.Find("FruitsDisplay");
 				fruits.SetActive(true);
 				StartCoroutine(fruitScript());
 				break; 
@@ -55,6 +56,32 @@ public class LessonController : MonoBehaviour
 			default:
 				break; 
 		}
+	}
+
+	IEnumerator CalibrationStep()
+    {
+		subs.text = "Put your hands in front of you";
+		yield return new WaitForSecondsRealtime(5.0f);
+
+		subs.text = "Put your hands out to the side";
+		yield return new WaitForSecondsRealtime(5.0f);
+
+		subs.text = "Raise your hands";
+		yield return new WaitForSecondsRealtime(5.0f);
+
+		subs.text = "Put your hands at your sides";
+		yield return new WaitForSecondsRealtime(5.0f);
+
+		subs.text = "Look left";
+		yield return new WaitForSecondsRealtime(5.0f);
+
+		subs.text = "Look right";
+		yield return new WaitForSecondsRealtime(5.0f);
+
+		subs.text = "The lesson will begin shortly";
+		yield return new WaitForSecondsRealtime(30.0f);
+
+
 	}
 
 	public void ToggleAnimationAndAudio()
@@ -77,7 +104,7 @@ public class LessonController : MonoBehaviour
 
 	IEnumerator fruitScript()
 	{
-
+		yield return StartCoroutine(CalibrationStep()); 
 		subs.text = "Manzana";
 		fruits.transform.GetChild(0).gameObject.SetActive(true);
 		yield return new WaitForSecondsRealtime(6.13f); //5.25
@@ -193,14 +220,18 @@ public class LessonController : MonoBehaviour
 	}
 	IEnumerator numberScript()
 	{
+		yield return StartCoroutine(CalibrationStep());
 		//Start Video/Audio
 		//subs.text = "¡Hola!  Vamos a aprender los números. Repita.";
 		subs.text = "";
+		audio.time = 6.76f;
+		audio.Play();
+		animator.Play("numeros_1", 0, 203);
 		//"Hello! We are going to learn the numbers. Repeat after me."
-		yield return new WaitForSecondsRealtime(5.89f); //8.75
+		yield return new WaitForSecondsRealtime(6.76f); //8.75
 
-		subs.text = "Diez\n10";
-		yield return new WaitForSecondsRealtime(4.40f); //13.5
+		//subs.text = "Diez\n10";
+		//yield return new WaitForSecondsRealtime(4.40f); //13.5
 
 		subs.text = "Once\n11";
 		yield return new WaitForSecondsRealtime(4.32f); //17.75
@@ -282,12 +313,16 @@ public class LessonController : MonoBehaviour
 	}
 	IEnumerator colorScript()
 	{
+		yield return StartCoroutine(CalibrationStep());
 		//Start Video/Audio
-		r.enabled = false;
+		//r.enabled = false;
 		//subs.text = "¡Hola! Vamos a aprender los colores. Repita.";
-		subs.text = "";
+		//subs.text = "";
 		//"Hello! We are going to learn the colors. Repeat after me."
-		yield return new WaitForSecondsRealtime(6.33f); //7.25
+		//yield return new WaitForSecondsRealtime(6.33f); //7.25
+		audio.time = 6.33f;
+		audio.Play();
+		animator.Play("colores_2", 0, 190);
 		r.enabled = true;
 
 		m.color = Color.red;
@@ -386,12 +421,16 @@ public class LessonController : MonoBehaviour
 	//For the "Repeat after me" video/audio.
 	IEnumerator shapeScript(){
 		//Start Video/Audio
+		yield return StartCoroutine(CalibrationStep());
 		r.enabled = false;
 
 		subs.text = ""; 
 		//subs.text = "Vamos a aprender las formas. Repita.";
 		//"We are going to learn the shapes. Repeat after me."
-		yield return new WaitForSecondsRealtime(4.31f ); //5.25
+		//yield return new WaitForSecondsRealtime(4.31f ); //5.25
+		audio.time = 4.31f;
+		audio.Play();
+		animator.Play("formas", 0, 129);
 		r.enabled = true;
 		
 		changeShape("rectangle");

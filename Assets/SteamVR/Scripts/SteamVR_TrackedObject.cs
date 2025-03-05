@@ -105,6 +105,7 @@ namespace Valve.VR
 
         public void SetDeviceIndex(int index)
         {
+
             if (System.Enum.IsDefined(typeof(EIndex), index))
                 this.index = (EIndex)index;
         }

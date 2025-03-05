@@ -178,7 +178,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: part_9_vh
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5866666021909216657, guid: 71cff8014fc86bc47901b850612d94bd, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 71cff8014fc86bc47901b850612d94bd,
