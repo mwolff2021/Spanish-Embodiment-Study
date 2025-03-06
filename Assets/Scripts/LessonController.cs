@@ -5,14 +5,13 @@ using TMPro;
 
 public class LessonController : MonoBehaviour
 {
-	public float tscale = 1.0f;
 	private Renderer r;
 	private Material m; 
 	private GameObject subtitles;
 	private TextMeshPro subs = null;
-	private GameObject colors, fruits, shapes;
-	public AudioSource audio;
-	public Animator animator;
+	private GameObject instructor, colors, fruits, shapes;
+	private AudioSource audio;
+	private Animator animator;
 	public int lesson;
 	Color32 pink = new Color32(255, 93, 143, 255);
 	Color32 brown = new Color32(95, 52, 35, 255);
@@ -23,8 +22,12 @@ public class LessonController : MonoBehaviour
     {
        
 		subtitles = GameObject.Find("Subtitles");
-		audio = GameObject.Find("Instructor").GetComponent<AudioSource>();
-		animator = GameObject.Find("Instructor").GetComponent<Animator>();
+		instructor = GameObject.Find("Instructor");
+		instructor.SetActive(false);
+		audio = instructor.GetComponent<AudioSource>();
+		animator = instructor.GetComponent<Animator>();
+		animator.speed = 0;
+		audio.Pause();
 		shapes = GameObject.Find("ShapesDisplay");
 		shapes.SetActive(false);
 		colors = GameObject.Find("ColorsDisplay");
@@ -33,6 +36,7 @@ public class LessonController : MonoBehaviour
 		fruits.SetActive(false);
 
 		subs = subtitles.GetComponent<TextMeshPro>();
+		subs.text = ""; 
 		switch (lesson)
 		{
 			case 1: //shapes
@@ -60,6 +64,7 @@ public class LessonController : MonoBehaviour
 
 	IEnumerator CalibrationStep()
     {
+		
 		subs.text = "Put your hands in front of you";
 		yield return new WaitForSecondsRealtime(5.0f);
 
@@ -104,7 +109,11 @@ public class LessonController : MonoBehaviour
 
 	IEnumerator fruitScript()
 	{
-		yield return StartCoroutine(CalibrationStep()); 
+		yield return StartCoroutine(CalibrationStep());
+		instructor.SetActive(true);
+		audio.Play();
+		animator.speed = 1;
+		//yield return StartCoroutine(CalibrationStep()); 
 		subs.text = "Manzana";
 		fruits.transform.GetChild(0).gameObject.SetActive(true);
 		yield return new WaitForSecondsRealtime(6.13f); //5.25
@@ -221,14 +230,16 @@ public class LessonController : MonoBehaviour
 	IEnumerator numberScript()
 	{
 		yield return StartCoroutine(CalibrationStep());
+		instructor.SetActive(true); 
 		//Start Video/Audio
 		//subs.text = "¡Hola!  Vamos a aprender los números. Repita.";
 		subs.text = "";
 		audio.time = 6.76f;
 		audio.Play();
-		animator.Play("numeros_1", 0, 203);
+		animator.speed = 1; 
+		animator.Play("numeros_2");
 		//"Hello! We are going to learn the numbers. Repeat after me."
-		yield return new WaitForSecondsRealtime(6.76f); //8.75
+		//yield return new WaitForSecondsRealtime(6.76f); //8.75
 
 		//subs.text = "Diez\n10";
 		//yield return new WaitForSecondsRealtime(4.40f); //13.5
@@ -314,6 +325,7 @@ public class LessonController : MonoBehaviour
 	IEnumerator colorScript()
 	{
 		yield return StartCoroutine(CalibrationStep());
+		instructor.SetActive(true); 
 		//Start Video/Audio
 		//r.enabled = false;
 		//subs.text = "¡Hola! Vamos a aprender los colores. Repita.";
@@ -321,6 +333,7 @@ public class LessonController : MonoBehaviour
 		//"Hello! We are going to learn the colors. Repeat after me."
 		//yield return new WaitForSecondsRealtime(6.33f); //7.25
 		audio.time = 6.33f;
+		animator.speed = 1; 
 		audio.Play();
 		animator.Play("colores_2", 0, 190);
 		r.enabled = true;
@@ -423,6 +436,7 @@ public class LessonController : MonoBehaviour
 		//Start Video/Audio
 		yield return StartCoroutine(CalibrationStep());
 		r.enabled = false;
+		instructor.SetActive(true); 
 
 		subs.text = ""; 
 		//subs.text = "Vamos a aprender las formas. Repita.";
@@ -430,6 +444,7 @@ public class LessonController : MonoBehaviour
 		//yield return new WaitForSecondsRealtime(4.31f ); //5.25
 		audio.time = 4.31f;
 		audio.Play();
+		animator.speed = 1; 
 		animator.Play("formas", 0, 129);
 		r.enabled = true;
 		
