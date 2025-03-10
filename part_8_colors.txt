@@ -1,0 +1,5 @@
+key: Instructor (UnityEngine.GameObject), Value: 32
+key: Table01 (UnityEngine.GameObject), Value: 21
+key: Frame (UnityEngine.GameObject), Value: 2
+key: ColorsDisplay (UnityEngine.GameObject), Value: 9
+key: RoomStructure (UnityEngine.GameObject), Value: 173

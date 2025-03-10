@@ -1,0 +1,6 @@
+key: RoomStructure (UnityEngine.GameObject), Value: 156
+key: MirrorFrame (UnityEngine.GameObject), Value: 18
+key: Mirror (UnityEngine.GameObject), Value: 30
+key: Table01 (UnityEngine.GameObject), Value: 29
+key: Avatar (UnityEngine.GameObject), Value: 4
+key: Carpet (UnityEngine.GameObject), Value: 198

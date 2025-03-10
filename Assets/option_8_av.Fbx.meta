@@ -8,112 +8,112 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Canvas_shoes
-    second: {fileID: 2100000, guid: 2fe7a421f8062e94982744cb065059d0, type: 2}
+    second: {fileID: 2100000, guid: 2ffcedba6518ae344a1d2eec2c106aee, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Hair_Transparency
-    second: {fileID: 2100000, guid: 2ebcca9a2ddbfe2489a35f9bf645aca6, type: 2}
+    second: {fileID: 2100000, guid: 8c46db85706c439448702e4615e6686a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Layered_sweater
-    second: {fileID: 2100000, guid: 47672bb0d96e87e45b95abaa6e411fee, type: 2}
+    second: {fileID: 2100000, guid: f17f82ddd30c9eb4286308b62f47b11c, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Scalp_Transparency
-    second: {fileID: 2100000, guid: fe95709d8ed8bd341a21f04d75159b8a, type: 2}
+    second: {fileID: 2100000, guid: a89e4606f5af13b4ba955e35d54a91e9, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Slim_Jeans
-    second: {fileID: 2100000, guid: c8752ce345cefcb43a162b79b4a31e20, type: 2}
+    second: {fileID: 2100000, guid: ea2f73205da9b2c4bbb30b0e4beb01b9, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Std_Cornea_L
-    second: {fileID: 2100000, guid: e2254115e88ed1a47af0e53ddda0c45e, type: 2}
+    second: {fileID: 2100000, guid: 1edb3531de33cee44b77dd6a98811faf, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Std_Cornea_R
-    second: {fileID: 2100000, guid: 603397816472c5e4c8da1cd6cec931f2, type: 2}
+    second: {fileID: 2100000, guid: 18d2b666468e8e54d8a629701d0b5a21, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Std_Eye_L
-    second: {fileID: 2100000, guid: 5b411eb100c3fb2499038eeb25da80a5, type: 2}
+    second: {fileID: 2100000, guid: 58741882cfb00704eabbf509ebe70ee8, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Std_Eye_Occlusion_L
-    second: {fileID: 2100000, guid: 8f0ca452a34a7a64db6b9d5ec09536aa, type: 2}
+    second: {fileID: 2100000, guid: d4a276a240be2ad4b95cd2024c6187d8, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Std_Eye_Occlusion_R
-    second: {fileID: 2100000, guid: f4a6dca6dcb85a640a2d0816d3cd0b19, type: 2}
+    second: {fileID: 2100000, guid: a3c24e0d356bcdb4abbbbb155263dacf, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Std_Eye_R
-    second: {fileID: 2100000, guid: 5b57b666382699c4cbf55279510e2cf6, type: 2}
+    second: {fileID: 2100000, guid: cef9ab1fe89e0ad4582395157fde93c4, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Std_Eyelash
-    second: {fileID: 2100000, guid: a2dd1b0c6a3aa6e409b69c26c17115bf, type: 2}
+    second: {fileID: 2100000, guid: 95861f709ef4d5a49a47da62c1be06c0, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Std_Lower_Teeth
-    second: {fileID: 2100000, guid: 8e48f3b59408ff54ea7382c3b13030b3, type: 2}
+    second: {fileID: 2100000, guid: 508a5f3b53f881e40a46d18ee7e74d5b, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Std_Nails
-    second: {fileID: 2100000, guid: d925a210d9e89974a80e53f7a3b02435, type: 2}
+    second: {fileID: 2100000, guid: d09e01c12cdab824683695b592b7e3be, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Std_Skin_Arm
-    second: {fileID: 2100000, guid: 3f1a45b9968f6004dab1f0c00cc16976, type: 2}
+    second: {fileID: 2100000, guid: 02331acee0b1e7341a75885ac903a579, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Std_Skin_Body
-    second: {fileID: 2100000, guid: 277106259984e744bb0fd514a5cc98cf, type: 2}
+    second: {fileID: 2100000, guid: 911f6cf70ed92ab4b980ba8324718203, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Std_Skin_Head
-    second: {fileID: 2100000, guid: d35ac4dc8b2eeb54daf7f058f88019dc, type: 2}
+    second: {fileID: 2100000, guid: 9a34044efc40adc41a52dbf472439e0f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Std_Skin_Leg
-    second: {fileID: 2100000, guid: 32f12d3128aac8445acaac297ae240e5, type: 2}
+    second: {fileID: 2100000, guid: 7ddd0a556bfff0949ac63a8bbea916db, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Std_Tearline_L
-    second: {fileID: 2100000, guid: d68c6dc52eb02744e994fde97beecf1a, type: 2}
+    second: {fileID: 2100000, guid: 33dfc274055be6144ba0047a7e2c5da2, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Std_Tearline_R
-    second: {fileID: 2100000, guid: 295fb526ddcb56f46a0118d1db48e85c, type: 2}
+    second: {fileID: 2100000, guid: 2489ae53af8237a40b92734fe6eda7e0, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Std_Tongue
-    second: {fileID: 2100000, guid: 7d835c714db9ab644a03922a99bc8350, type: 2}
+    second: {fileID: 2100000, guid: ec967fd2a086f2943a27ba824c3c7feb, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Std_Upper_Teeth
-    second: {fileID: 2100000, guid: 25c9a9e25c55d2f45bb98d33218cb82a, type: 2}
+    second: {fileID: 2100000, guid: 39a859c3d5b650a4cade5bf49fc0e3e7, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -141,7 +141,36 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: 0_T-Pose
+      takeName: 0_T-Pose
+      internalID: -7881739814215078984
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 0
   meshes:
     lODScreenPercentages: []
@@ -188,7 +217,7 @@ ModelImporter:
     blendShapeNormalImportMode: 0
     normalSmoothingSource: 0
   referencedClips: []
-  importAnimation: 0
+  importAnimation: 1
   humanDescription:
     serializedVersion: 3
     human:

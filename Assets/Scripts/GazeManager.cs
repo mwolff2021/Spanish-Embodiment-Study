@@ -9,6 +9,8 @@ public class GazeManager : MonoBehaviour
     public Camera viewCamera;
     private GameObject lastGazedUpon;
     public string fileName;
+    float startTime;
+    bool startTracking; 
     //private List<string> objectsSeen;
 
     Dictionary<string, int> dict;
@@ -17,12 +19,19 @@ public class GazeManager : MonoBehaviour
     void Start()
     {
         dict = new Dictionary<string, int>();
+        startTime = Time.time;
+        startTracking = false; 
     }
 
     void Update()
     {
-        CheckGaze();
+        if (startTracking || ((Time.time - startTime) >= 60f))
+        {
+            CheckGaze();
+            startTracking = true; 
+        }
     }
+
     void OnApplicationQuit()
     {
         Debug.Log("quitting");

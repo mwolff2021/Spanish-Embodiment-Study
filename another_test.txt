@@ -1,1 +1,8 @@
-key: RoomStructure (UnityEngine.GameObject), Value: 222
+key: RoomStructure (UnityEngine.GameObject), Value: 1337
+key: Avatar (UnityEngine.GameObject), Value: 593
+key: Frame (UnityEngine.GameObject), Value: 19
+key: Table01 (UnityEngine.GameObject), Value: 21
+key: Windows (UnityEngine.GameObject), Value: 612
+key: Curtains (UnityEngine.GameObject), Value: 214
+key: FlowerPot (UnityEngine.GameObject), Value: 96
+key: Instructor (UnityEngine.GameObject), Value: 9

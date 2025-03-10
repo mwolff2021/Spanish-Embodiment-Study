@@ -40,18 +40,18 @@ public class LessonController : MonoBehaviour
 		switch (lesson)
 		{
 			case 1: //shapes
-				shapes.SetActive(true); 
+				
 				r = shapes.GetComponent<Renderer>();
 				StartCoroutine(shapeScript()); 
 				break;
 			case 2: //colors
-				colors.SetActive(true); 
+				//colors.SetActive(true); 
 				r = colors.GetComponent<Renderer>();
 				m = r.material;
 				StartCoroutine(colorScript()); 
 				break;
 			case 3: //fruits
-				fruits.SetActive(true);
+				//fruits.SetActive(true);
 				StartCoroutine(fruitScript());
 				break; 
 			case 4: //numbers
@@ -89,7 +89,7 @@ public class LessonController : MonoBehaviour
 
 	}
 
-	public void ToggleAnimationAndAudio()
+	/*public void ToggleAnimationAndAudio()
 	{
 		if (audio.isPlaying)
 		{
@@ -101,7 +101,7 @@ public class LessonController : MonoBehaviour
 			audio.Play();
 			animator.speed = 1;
 		}
-	}
+	}*/
 
 	void changeShape(string shapename){
 		r.material.mainTexture = Resources.Load(shapename, typeof(Texture)) as Texture;
@@ -111,6 +111,7 @@ public class LessonController : MonoBehaviour
 	{
 		yield return StartCoroutine(CalibrationStep());
 		instructor.SetActive(true);
+		fruits.SetActive(true); 
 		audio.Play();
 		animator.speed = 1;
 		//yield return StartCoroutine(CalibrationStep()); 
@@ -169,9 +170,9 @@ public class LessonController : MonoBehaviour
 		subs.text = "";
 		//subs.text = "¿Qué es?";
 		yield return new WaitForSecondsRealtime(5.39f);
-		ToggleAnimationAndAudio();
-		yield return new WaitForSecondsRealtime(2.0f);
-		ToggleAnimationAndAudio();//4
+		
+		
+		//4
 								  //subs.text = "Es una manzana.";
 		subs.text = "Manzana";
 		yield return new WaitForSecondsRealtime(2.66f); //7.5
@@ -181,9 +182,9 @@ public class LessonController : MonoBehaviour
 		subs.text = "";
 		//subs.text = "¿Qué es?";
 		yield return new WaitForSecondsRealtime(4.45f);
-		ToggleAnimationAndAudio();
-		yield return new WaitForSecondsRealtime(2.0f);
-		ToggleAnimationAndAudio();//10.75
+		
+		
+		//10.75
 								  //subs.text = "Es una fresa.";
 		subs.text = "Fresa";
 		yield return new WaitForSecondsRealtime(2.43f); //14.75
@@ -193,9 +194,9 @@ public class LessonController : MonoBehaviour
 		subs.text = "";
 		//subs.text = "¿Qué es?";
 		yield return new WaitForSecondsRealtime(4.58f);
-		ToggleAnimationAndAudio();
-		yield return new WaitForSecondsRealtime(2.0f);
-		ToggleAnimationAndAudio();
+		
+		
+		
 		//subs.text = "Es una naranja.";
 		subs.text = "Naranja";
 		yield return new WaitForSecondsRealtime(2.67f); //20.75
@@ -205,9 +206,9 @@ public class LessonController : MonoBehaviour
 		subs.text = "";
 		//subs.text = "¿Qué es?";
 		yield return new WaitForSecondsRealtime(4.62f); //23
-		ToggleAnimationAndAudio();
-		yield return new WaitForSecondsRealtime(2.0f);
-		ToggleAnimationAndAudio();
+		
+		
+		
 		//subs.text = "Es una sandia.";
 		subs.text = "Sandia";
 		yield return new WaitForSecondsRealtime(2.71f); //26
@@ -217,9 +218,9 @@ public class LessonController : MonoBehaviour
 		//subs.text = "¿Qué es?";
 		subs.text = "";
 		yield return new WaitForSecondsRealtime(4.16f);
-		ToggleAnimationAndAudio();
-		yield return new WaitForSecondsRealtime(2.0f);
-		ToggleAnimationAndAudio();//28
+		
+		
+		//28
 								  //subs.text = "Es un plátano.";
 		subs.text = "Plátano";
 		yield return new WaitForSecondsRealtime(3.0f); //31
@@ -281,42 +282,42 @@ public class LessonController : MonoBehaviour
 		subs.text = "11";
 		//"What shape is this?"
 		yield return new WaitForSecondsRealtime(2.38f); //7.5
-		ToggleAnimationAndAudio();
-		yield return new WaitForSecondsRealtime(2.0f);
-		ToggleAnimationAndAudio();
+		
+		
+		
 		subs.text = "Once";
 		yield return new WaitForSecondsRealtime(3.24f); //10.5
 
 		subs.text = "15";
 		yield return new WaitForSecondsRealtime(2.72f); //13
-		ToggleAnimationAndAudio();
-		yield return new WaitForSecondsRealtime(2.0f);
-		ToggleAnimationAndAudio();
+		
+		
+		
 		subs.text = "Quince";
 		yield return new WaitForSecondsRealtime(3.09f); //16.75
 
 		subs.text = "13";
 		yield return new WaitForSecondsRealtime(3.38f); //19.75
-		ToggleAnimationAndAudio();
-		yield return new WaitForSecondsRealtime(2.0f);
-		ToggleAnimationAndAudio();
+		
+		
+		
 		subs.text = "Trece";
 		yield return new WaitForSecondsRealtime(3.42f); //23.5
 
 		subs.text = "19";
 		yield return new WaitForSecondsRealtime(3.12f); //26
-		ToggleAnimationAndAudio();
-		yield return new WaitForSecondsRealtime(2.0f);
-		ToggleAnimationAndAudio();
+		
+		
+		
 		subs.text = "Diecinueve";
 		yield return new WaitForSecondsRealtime(3.17f); //29.25
 
 		//subs.text = "¿Qué número es?\n16";
 		subs.text = "16";
 		yield return new WaitForSecondsRealtime(3.16f); //32.5
-		ToggleAnimationAndAudio();
-		yield return new WaitForSecondsRealtime(2.0f);
-		ToggleAnimationAndAudio();
+		
+		
+		
 		subs.text = "Dieciséis";
 		yield return new WaitForSecondsRealtime(3.09f); //35
 
@@ -333,7 +334,8 @@ public class LessonController : MonoBehaviour
 		//"Hello! We are going to learn the colors. Repeat after me."
 		//yield return new WaitForSecondsRealtime(6.33f); //7.25
 		audio.time = 6.33f;
-		animator.speed = 1; 
+		animator.speed = 1;
+		colors.SetActive(true);
 		audio.Play();
 		animator.Play("colores_2", 0, 190);
 		r.enabled = true;
@@ -386,9 +388,9 @@ public class LessonController : MonoBehaviour
 		subs.text = "";
 		//"What color is this?"
 		yield return new WaitForSecondsRealtime(3.27f); //3.25
-		ToggleAnimationAndAudio();
-		yield return new WaitForSecondsRealtime(2.0f);
-		ToggleAnimationAndAudio();
+		
+		
+		
 		subs.text = "Rosado";
 		yield return new WaitForSecondsRealtime(2.83f); //6.65
 
@@ -396,9 +398,9 @@ public class LessonController : MonoBehaviour
 		subs.text = "";
 		//subs.text = "¿Qué color es?";
 		yield return new WaitForSecondsRealtime(2.6f); //9.45
-		ToggleAnimationAndAudio();
-		yield return new WaitForSecondsRealtime(2.0f);
-		ToggleAnimationAndAudio();
+		
+		
+		
 		subs.text = "Amarillo";
 		yield return new WaitForSecondsRealtime(2.94f); //11.25
 
@@ -406,9 +408,9 @@ public class LessonController : MonoBehaviour
 		subs.text = "";
 		//subs.text = "¿Qué color es?";
 		yield return new WaitForSecondsRealtime(2.61f); //14
-		ToggleAnimationAndAudio();
-		yield return new WaitForSecondsRealtime(2.0f);
-		ToggleAnimationAndAudio();
+		
+		
+		
 		subs.text = "Color café";
 		yield return new WaitForSecondsRealtime(3.05f); //19
 
@@ -436,7 +438,8 @@ public class LessonController : MonoBehaviour
 		//Start Video/Audio
 		yield return StartCoroutine(CalibrationStep());
 		r.enabled = false;
-		instructor.SetActive(true); 
+		instructor.SetActive(true);
+		shapes.SetActive(true);
 
 		subs.text = ""; 
 		//subs.text = "Vamos a aprender las formas. Repita.";
@@ -497,9 +500,9 @@ public class LessonController : MonoBehaviour
 		//subs.text = "¿Qué forma es?";
 		//"What shape is this?"
 		yield return new WaitForSecondsRealtime(2.00f); //4
-		ToggleAnimationAndAudio();
-		yield return new WaitForSecondsRealtime(2.0f);
-		ToggleAnimationAndAudio();                                              //subs.text = "Es un círculo.";
+		
+		
+		                                              //subs.text = "Es un círculo.";
 		subs.text = "Círculo";
 		yield return new WaitForSecondsRealtime(3.17f); //7.5
 		
@@ -507,9 +510,9 @@ public class LessonController : MonoBehaviour
 		//subs.text = "¿Qué forma es?";
 		subs.text = ""; 
 		yield return new WaitForSecondsRealtime(3.34f ); //10.75
-		ToggleAnimationAndAudio();
-		yield return new WaitForSecondsRealtime(2.0f);
-		ToggleAnimationAndAudio();                                              //subs.text = "Es un rectángulo.";
+		
+		
+		                                              //subs.text = "Es un rectángulo.";
 		subs.text = "Rectángulo";
 		yield return new WaitForSecondsRealtime(4.10f ); //14.75
 		
@@ -517,9 +520,9 @@ public class LessonController : MonoBehaviour
 		//subs.text = "¿Qué forma es?";
 		subs.text = ""; 
 		yield return new WaitForSecondsRealtime(2.98f ); //17.5
-		ToggleAnimationAndAudio();
-		yield return new WaitForSecondsRealtime(2.0f);
-		ToggleAnimationAndAudio();                                               //subs.text = "Es una estrella.";
+		
+		
+		                                               //subs.text = "Es una estrella.";
 		subs.text = "Estrella"; 
 		yield return new WaitForSecondsRealtime(2.93f ); //20.75
 		
@@ -527,9 +530,9 @@ public class LessonController : MonoBehaviour
 		//subs.text = "¿Qué forma es?";
 		subs.text = ""; 
 		yield return new WaitForSecondsRealtime(2.78f ); //23
-		ToggleAnimationAndAudio();
-		yield return new WaitForSecondsRealtime(2.0f);
-		ToggleAnimationAndAudio();                                               //subs.text = "Es un rombo.";
+		
+		
+		                                               //subs.text = "Es un rombo.";
 		subs.text = "Rombo"; 
 		yield return new WaitForSecondsRealtime(2.65f ); //26
 		
@@ -537,9 +540,9 @@ public class LessonController : MonoBehaviour
 		//subs.text = "¿Qué forma es?";
 		subs.text = ""; 
 		yield return new WaitForSecondsRealtime(2.49f ); //28
-		ToggleAnimationAndAudio();
-		yield return new WaitForSecondsRealtime(2.0f);
-		ToggleAnimationAndAudio();                                              //subs.text = "Es un corazón.";
+		
+		
+		                                              //subs.text = "Es un corazón.";
 		subs.text = "Corazón"; 
 		yield return new WaitForSecondsRealtime(2.11f ); //31
 		

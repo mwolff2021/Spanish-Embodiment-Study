@@ -1,0 +1,5 @@
+key: Instructor (UnityEngine.GameObject), Value: 18
+key: Avatar (UnityEngine.GameObject), Value: 33
+key: Windows (UnityEngine.GameObject), Value: 168
+key: RoomStructure (UnityEngine.GameObject), Value: 104
+key: Table01 (UnityEngine.GameObject), Value: 1

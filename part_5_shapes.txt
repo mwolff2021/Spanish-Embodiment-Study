@@ -1,0 +1,4 @@
+key: Instructor (UnityEngine.GameObject), Value: 69
+key: Windows (UnityEngine.GameObject), Value: 2
+key: RoomStructure (UnityEngine.GameObject), Value: 404
+key: Carpet (UnityEngine.GameObject), Value: 251

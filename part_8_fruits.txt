@@ -1,0 +1,4 @@
+key: Instructor (UnityEngine.GameObject), Value: 611
+key: Mirror (UnityEngine.GameObject), Value: 6
+key: MirrorFrame (UnityEngine.GameObject), Value: 1
+key: RoomStructure (UnityEngine.GameObject), Value: 63
