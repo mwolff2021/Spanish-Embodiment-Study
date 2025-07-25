@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class PlayAudio : MonoBehaviour
 {
-    public AudioSource aud;
+    AudioSource aud;
+    //public int lesson; 
     void Start()
     {
         aud = GetComponent<AudioSource>();

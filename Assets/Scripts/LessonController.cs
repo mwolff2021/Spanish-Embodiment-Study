@@ -24,10 +24,10 @@ public class LessonController : MonoBehaviour
 		subtitles = GameObject.Find("Subtitles");
 		instructor = GameObject.Find("Instructor");
 		instructor.SetActive(false);
-		audio = instructor.GetComponent<AudioSource>();
+		//audio = instructor.GetComponent<AudioSource>();
 		animator = instructor.GetComponent<Animator>();
-		animator.speed = 0;
-		audio.Pause();
+		//animator.speed = 0;
+		//audio.Pause();
 		shapes = GameObject.Find("ShapesDisplay");
 		shapes.SetActive(false);
 		colors = GameObject.Find("ColorsDisplay");
@@ -40,8 +40,7 @@ public class LessonController : MonoBehaviour
 		switch (lesson)
 		{
 			case 1: //shapes
-				
-				r = shapes.GetComponent<Renderer>();
+				r = shapes.GetComponent<Renderer>(); 
 				StartCoroutine(shapeScript()); 
 				break;
 			case 2: //colors
@@ -104,15 +103,15 @@ public class LessonController : MonoBehaviour
 	}*/
 
 	void changeShape(string shapename){
-		r.material.mainTexture = Resources.Load(shapename, typeof(Texture)) as Texture;
+		r.material.mainTexture = Resources.Load<Texture>(shapename);
 	}
 
 	IEnumerator fruitScript()
 	{
 		yield return StartCoroutine(CalibrationStep());
 		instructor.SetActive(true);
-		fruits.SetActive(true); 
-		audio.Play();
+		fruits.SetActive(true);
+		animator.Play("fruits_3");
 		animator.speed = 1;
 		//yield return StartCoroutine(CalibrationStep()); 
 		subs.text = "Manzana";
@@ -227,6 +226,9 @@ public class LessonController : MonoBehaviour
 		fruits.transform.GetChild(2).gameObject.SetActive(false);
 
 		subs.text = "";
+
+		yield return new WaitForSecondsRealtime(5.0f);
+		Application.Quit();
 	}
 	IEnumerator numberScript()
 	{
@@ -235,8 +237,8 @@ public class LessonController : MonoBehaviour
 		//Start Video/Audio
 		//subs.text = "¡Hola!  Vamos a aprender los números. Repita.";
 		subs.text = "";
-		audio.time = 6.76f;
-		audio.Play();
+		//audio.time = 6.76f;
+		//audio.Play();
 		animator.speed = 1; 
 		animator.Play("numeros_2");
 		//"Hello! We are going to learn the numbers. Repeat after me."
@@ -322,6 +324,9 @@ public class LessonController : MonoBehaviour
 		yield return new WaitForSecondsRealtime(3.09f); //35
 
 		subs.text = "";
+
+		yield return new WaitForSecondsRealtime(5.0f);
+		Application.Quit();
 	}
 	IEnumerator colorScript()
 	{
@@ -333,16 +338,16 @@ public class LessonController : MonoBehaviour
 		//subs.text = "";
 		//"Hello! We are going to learn the colors. Repeat after me."
 		//yield return new WaitForSecondsRealtime(6.33f); //7.25
-		audio.time = 6.33f;
-		animator.speed = 1;
+		//audio.time = 6.33f;
+		//animator.speed = 1;
 		colors.SetActive(true);
-		audio.Play();
-		animator.Play("colores_2", 0, 190);
+		//audio.Play();
+		animator.Play("colores_2", 1, .11085f);
 		r.enabled = true;
 
 		m.color = Color.red;
 		subs.text = "Rojo";
-		yield return new WaitForSecondsRealtime(4.76f); //12.25
+		yield return new WaitForSecondsRealtime(5.52f); //12.25
 
 		m.color = Color.blue;
 		subs.text = "Azul";
@@ -432,12 +437,15 @@ public class LessonController : MonoBehaviour
 
 		r.enabled = false;
 		subs.text = "";
+
+		yield return new WaitForSecondsRealtime(5.0f);
+		Application.Quit();
 	}
 	//For the "Repeat after me" video/audio.
 	IEnumerator shapeScript(){
 		//Start Video/Audio
 		yield return StartCoroutine(CalibrationStep());
-		r.enabled = false;
+		//r = shapes.GetComponent<Renderer>();
 		instructor.SetActive(true);
 		shapes.SetActive(true);
 
@@ -445,15 +453,15 @@ public class LessonController : MonoBehaviour
 		//subs.text = "Vamos a aprender las formas. Repita.";
 		//"We are going to learn the shapes. Repeat after me."
 		//yield return new WaitForSecondsRealtime(4.31f ); //5.25
-		audio.time = 4.31f;
-		audio.Play();
-		animator.speed = 1; 
-		animator.Play("formas", 0, 129);
+		//audio.time = 4.31f;
+		//audio.Play();
+		//animator.speed = 1; 
+		animator.Play("formas", 1, 0.07504f);
 		r.enabled = true;
 		
 		changeShape("rectangle");
 		subs.text = "Rectángulo";
-		yield return new WaitForSecondsRealtime(5.92f ); //11
+		yield return new WaitForSecondsRealtime(5.77f ); //11
 		
 		changeShape("circle");
 		subs.text = "Círculo";
@@ -548,5 +556,8 @@ public class LessonController : MonoBehaviour
 		
 		r.enabled = false;
 		subs.text = "";
+
+		yield return new WaitForSecondsRealtime(5.0f);
+		Application.Quit(); 
 	}
 }

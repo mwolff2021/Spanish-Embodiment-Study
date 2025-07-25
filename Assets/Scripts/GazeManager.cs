@@ -30,6 +30,7 @@ public class GazeManager : MonoBehaviour
             CheckGaze();
             startTracking = true; 
         }
+        
     }
 
     void OnApplicationQuit()

@@ -131,7 +131,7 @@ Material:
     - _OpaqueCullMode: 2
     - _ReceivesSSR: 1
     - _ReceivesSSRTransparent: 0
-    - _RenderQueueType: 4
+    - _RenderQueueType: 1
     - _RequireSplitLighting: 0
     - _RimTransmissionIntensity: 0.09479563
     - _RootColorStrength: 1

@@ -1,0 +1,3 @@
+key: Instructor (UnityEngine.GameObject), Value: 754
+key: RoomStructure (UnityEngine.GameObject), Value: 5
+key: Table01 (UnityEngine.GameObject), Value: 45
